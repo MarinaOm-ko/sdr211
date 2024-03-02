@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.head{
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    background: brown;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    /*z-index: 1;*/
+}
+.eye1{
+    width: 70px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left: 70px;
+}
+.pupil-left{
+    width: 50px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    border-radius: 50%;
+    top: 9px;
+    left: 11px;
+}
+.pupil-small-left{
+    width: 30px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 12px;
+    left: 11px;
+}
+.eye2{
+    width: 70px;
+    height: 70px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 80px;
+    left:  150px;
+}
+.pupil-right{
+    width: 50px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    border-radius: 50%;
+    top: 9px;
+    left: 11px;
+}
+.pupil-small-right{
+    width: 30px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top:12px;
+    left: 10px;}
+.nose{
+    width: 150px;
+    height: 120px;
+    background: lightcoral;
+    position: relative;
+    border-radius: 50%;
+    top:130px;
+    left: 70px;
+   
+}
+.nostril1{
+    width: 70px;
+    height: 20px;
+    background: rgb(62, 17, 17);
+    position: absolute;
+    top: 40px;
+    left: 35px;
+}
+.nostril2{
+    width: 20px;
+    height: 40px;
+    background: rgb(62, 17, 17);
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.earl-left-behind{
+    width: 110px;
+    height: 90px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -160px;
+    left: 30px;
+    z-index: -1;
+}
+.ear-left{
+    width: 100px;
+    height: 80px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.earl-right-behind{
+    width: 110px;
+    height: 90px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -250px;
+    left: 150px;
+    z-index: -1;
+}
+.ear-right{
+    width: 100px;
+    height: 80px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.body{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    position: relative;
+    top: 48px;
+    left: 150px;
+    z-index: 1;
+}
+
+.button1{
+    width: 30px;
+    height: 30px;
+    background: rgb(62, 17, 17);
+    position: absolute;
+    left: 80px;
+}
+.button2{
+    width: 30px;
+    height: 30px;
+    background: green;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.button3{
+    width: 30px;
+    height: 30px;
+    background: rgb(62, 17, 17);
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.paw-left-behind-top{
+    width: 80px;
+    height: 80px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -140px;
+    left: 90px;
+}
+.paw-left-top{
+    width: 70px;
+    height: 70px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+.paw-left-bottom{
+    width: 70px;
+    height: 70px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left:5px ;
+    z-index: 1;
+}
+.paw-left-behind-bottom{
+    width: 80px;
+    height: 80px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -90px;
+    left: 120px;
+}
+.paw-right-behind-top{
+    width: 80px;
+    height: 80px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -303px;
+    left: 330px;
+}
+.paw-right-top{
+    width: 70px;
+    height: 70px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+.paw-right-behind-bottom{
+    width: 80px;
+    height: 80px;
+    background: rgb(62, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    top: -250px;
+    left: 320px;
+}
+.paw-right-bottom{
+    width: 70px;
+    height: 70px;
+    background: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left:5px ;
+    z-index: 1;
+}
